@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARK</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            font-size: 42px;
+            color: green;
+        }
+        .inicio{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 32px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 380px;
+            background-color: #1C1C1C;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding-left: 40px;
+            
+        }
+        h2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 42px;
+            color: green;
+        }
+        label{
+            font-size: 18px;
+            color: white;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        input{
+            margin-left: 10px;
+            margin-bottom: 10px;
+            height: 40px;
+            width: 300px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            background-color: rgba(0, 0, 0, 0.151);
+            font-size: 20px;
+            color:  white;
+            
+        }
+        button{
+            margin-left: 10px;
+            height: 40px;
+            width: 78%;
+            margin-top: 20px;
+            border-radius: 6px;
+            border: none;
+            background-color: green;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="inicio">
+        <h1>Faça login para <br>
+        E entre para nosso</h1>
+        <form action="">
+            <h2>Login</h2>
+            <label for="">Usuario</label>
+            <input type="text">
+            <label for="">Senha</label>
+            <input type="password">
+            <button>Login</button>
+        </form>
+    </div>
+</body>
+</html>
